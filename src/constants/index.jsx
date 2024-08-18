@@ -17,8 +17,8 @@ import { Link } from 'react-router-dom';
 export const navItems = [
   { label: "Home", href: "/" },
   { label: "Published Games", href: "/published-games" },
-  { label: "Privacy Policy", href: "#" },
-  { label: "Contact Us", href: "#" },
+  { label: "Privacy Policy", href: "/privacy-policy" },
+  { label: "Contact Us", href: "/contact-us" },
 ];
 
 export const testimonials = [

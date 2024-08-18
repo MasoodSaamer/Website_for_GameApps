@@ -8,6 +8,8 @@ import Price from './components/Price';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 import PublishedGames from './components/Published_games/PublishedGames'; // Import your new component
+import PrivacyPolicy from './components/PrivacyPolicy';
+import ContactUs from './components/ContactUs';
 
 const AppRoutes = () => {
     return (
@@ -26,6 +28,8 @@ const AppRoutes = () => {
             </>
           } />
           <Route path="/published-games" element={<PublishedGames />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/contact-us" element={<ContactUs />} />
         </Routes>
       </Router>
     );
