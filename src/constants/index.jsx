@@ -12,88 +12,126 @@ import user4 from "../assets/profile-pictures/user4.jpg";
 import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
+import { Link } from 'react-router-dom';
+
 export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "Home", href: "/" },
+  { label: "Published Games", href: "/published-games" },
+  { label: "Privacy Policy", href: "#" },
+  { label: "Contact Us", href: "#" },
 ];
 
 export const testimonials = [
   {
-    user: "John Doe",
-    company: "Stellar Solutions",
+    user: "Phekan Phekan hazarika",
+    company: "Indian car simulator game: July 16, 2024",
     image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    text: "This game is very good but add some indian truck By the way game is fantastic",
   },
   {
-    user: "Jane Smith",
-    company: "Blue Horizon Technologies",
+    user: "Jyoti Dalal",
+    company: "Indian car simulator game: May 31, 2024",
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "This is my favorite game 🥰🤓🤓",
   },
   {
-    user: "David Johnson",
-    company: "Quantum Innovations",
+    user: "Betty Nibot",
+    company: "Toyota Drift Simulator 2021: April 10, 2024",
     image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    text: "Hey protocol simulation this game is pretty fun, but I have one favor and that is can you add all the variations of the hiace and grandia and the alphard? If you do I would gladly be happy for adding it😊🙏👍!.",
   },
   {
-    user: "Ronee Brown",
-    company: "Fusion Dynamics",
+    user: "Ncamisile Mazibuko",
+    company: "Toyota Drift Simulator 2021: July 27, 2024",
     image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+    text: "This game is the cooler game in my life and I want to see all games in the play store",
   },
   {
-    user: "Michael Wilson",
-    company: "Visionary Creations",
+    user: "Chandralekha Patil",
+    company: "Toyota Drift Simulator 2021: March 10, 2024",
     image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
+    text: "BEST GAME EVER NOT GONNA LIE! PLAYING THIS FOR 2 YEARS STILL FUN!",
   },
   {
-    user: "Emily Davis",
-    company: "Synergy Systems",
+    user: "Raheel Ziauddin",
+    company: "Pakistan Car Simulator Game: May 13, 2024",
     image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    text: "This is very good game because in this game the cars are free and colours of cars and wheels are also free.So i rate this 5/5",
   },
 ];
 
 export const features = [
   {
     icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    text: "Game Engine",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Unity 2021.3.21f1 LTS & Unity 2019.4.34f1 LTS",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "Multiplayer",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Photon Cloud Network",
   },
   {
     icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    text: "Programming Languages",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "C#, Java",
   },
   {
     icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    text: "3D Editing & Rendering software",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Blender",
   },
   {
     icon: <PlugZap />,
-    text: "Collaboration Tools",
+    text: "Photo Editing Software",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Adobe Photoshop, paint.net",
   },
   {
     icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    text: "Ad networks",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Unity Ads SDK & Ironsource SDK",
+  },
+  {
+    icon: <BotMessageSquare />,
+    text: "Analytics",
+    description:
+      "Google Play console analytics, Unity analytics",
+  },
+  {
+    icon: <Fingerprint />,
+    text: "Sound and Video editing",
+    description:
+      "Wondershare filmora",
+  },
+  {
+    icon: <ShieldHalf />,
+    text: "Car Physics Package",
+    description:
+      "Realistic Car Controller 3.82",
+  },
+  {
+    icon: <BatteryCharging />,
+    text: "Publishing Store",
+    description:
+      "Google Play Store",
+  },
+  {
+    icon: <PlugZap />,
+    text: "Development Platform",
+    description:
+      "Android devices",
+  },
+  {
+    icon: <GlobeLock />,
+    text: "Social Media",
+    description:
+      "Youtube, Instagram",
   },
 ];
 
@@ -101,22 +139,22 @@ export const checklistItems = [
   {
     title: "Code merge made easy",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "1 million+ installs & 4000+ reviews",
   },
   {
     title: "Review code without worry",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Multiplayer mode allowing users from around the world to connect",
   },
   {
     title: "AI Assistance to reduce time",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Featuring freeroam mode where player can get out of the car and roam the open world",
   },
   {
     title: "Share work in minutes",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Multiple high-definition maps including cities, drift tracks, highways and more",
   },
 ];
 
@@ -131,34 +169,14 @@ export const pricingOptions = [
       "Private Mode",
     ],
   },
-  {
-    title: "Pro",
-    price: "$10",
-    features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
-    ],
-  },
-  {
-    title: "Enterprise",
-    price: "$200",
-    features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
-    ],
-  },
+  
 ];
 
 export const resourcesLinks = [
-  { href: "#", text: "Getting Started" },
-  { href: "#", text: "Documentation" },
-  { href: "#", text: "Tutorials" },
-  { href: "#", text: "API Reference" },
-  { href: "#", text: "Community Forums" },
+  { href: "https://play.google.com/store/apps/dev?id=6892059516122641709", text: "Official Store Page" },
+  { href: "https://www.youtube.com/channel/UCvAhLOZzsV9O-Co8DbJJ8Cg", text: "Youtube" },
+  { href: "https://www.instagram.com/car_game_developers/", text: "Instagram" },
+  
 ];
 
 export const platformLinks = [

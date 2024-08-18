@@ -1,3 +1,15 @@
+import React from 'react';
+import AppRoutes from './Routes';  // Adjust the path if necessary
+
+const App = () => {
+  return <AppRoutes />;
+}
+
+export default App;
+
+
+
+/*
 import React from 'react'
 import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
@@ -13,9 +25,9 @@ export const App = () => {
       <Navbar />
       <div className="max-w-7xl mx-auto pt-20 px-6">
         <HeroSection />
-        <FeatureSection />
         <Workflow />
-        <Price />
+        <FeatureSection />
+        
         <Testimonials />
         <Footer />
       </div>
@@ -26,3 +38,8 @@ export const App = () => {
 }
 
 export default App
+
+
+
+
+*/

@@ -3,7 +3,7 @@ import { pricingOptions } from "../constants";
 
 const Price = () => {
   return (
-    <div className="mt-20">
+    <div className="mt-0">
         <h2 className="text-2xl sm:text-4xt lg:text-5xl text-center my-8 tracking-wide">
             Feeling generous? 
             <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
