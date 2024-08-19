@@ -2,6 +2,7 @@ import { Menu, X} from "lucide-react"
 import { useState } from "react";
 {/*The above two imports are for the control menu for display on mobile */}
 
+
 import logo from "../assets/logo.png";
 import { navItems } from "../constants";
 
